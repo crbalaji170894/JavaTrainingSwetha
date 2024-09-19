@@ -1,6 +1,9 @@
 package org.test;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Vector;
 
 public class ListInterface {
 
@@ -8,7 +11,8 @@ public class ListInterface {
 
 		ArrayList arrayLi = new ArrayList();
 		
-	
+		List arrayLi4 = new ArrayList();
+		
 		arrayLi.add(true);
 
 		arrayLi.add(10);
@@ -74,9 +78,16 @@ public class ListInterface {
 		 
 		 System.out.println(arrayLi);
 		 
- boolean emptyq= arrayLi.isEmpty();
+     boolean emptyq= arrayLi.isEmpty();
 		 
 		 System.out.println(emptyq);
+		 
+		 
+		 LinkedList liList = new LinkedList();
+		 
+		 
+		 Vector vec = new Vector();
+		 
 	
 	
 	}
